@@ -77,6 +77,11 @@ theme:
 socials:
   github: 'https://github.com/MarcusViniciusSS'
   twitter: 'https://twitter.com/MarcusVinSS'
+  customs:
+
+    linkedin:
+      icon: /svg/linkedin.svg
+      link: https://www.linkedin.com/in/vinicius-santana-silva/
 
 #! ---------------------------------------------------------------
 #! Site Meta Configs
@@ -86,8 +91,8 @@ site_meta:
   cdn: en
   favicon:
   description: ''
-  keywords: ''
-  author: ''
+  keywords: 'Software, Engineer, c#, .net, gamedev, mmo, ddd, reactiveprogramming, algorithm'
+  author: 'Marcus Vinicius Santana Silva'
 
 #! ---------------------------------------------------------------
 #! Plugins
@@ -96,7 +101,7 @@ site_meta:
 
 # For local development only!
 gitalk:
-  enable: true
+  enable: false
   autoExpand: true
   clientID: ''
   clientSecret: ''
@@ -106,7 +111,7 @@ gitalk:
   id: uid
   language: en
   distractionFreeMode: true
-  recentComment: true
+  recentComment: false
   proxy: ''
 
 # Valine comment plugin (recommended!)
@@ -123,7 +128,7 @@ valine:
   meta: ['nick', 'mail']
   requiredFields: ['nick', 'mail']
   admin: '' # admin username
-  recentComment: true
+  recentComment: false
 
 # Twikoo comment plugin
 # see https://twikoo.js.org/quick-start.html
@@ -157,13 +162,10 @@ busuanzi:
 copy_protection:
   enable: true
   author:
-    cn: 作者
     en: Author
   link:
-    cn: 本文来自于
     en: Article is from
   license:
-    cn: 博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议
     en: This content is shared under the CC BY-NC-SA 4.0 protocol (Non-Commercial)
 
 #! ---------------------------------------------------------------
