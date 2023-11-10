@@ -9,9 +9,9 @@
 #！ @docs https://aurora.tridiamond.tech/guide/configuration.html
 #! ---------------------------------------------------------------
 site:
-  subtitle: MarcusViniciusS's Blog
-  author: MarcusViniciusS
-  nick: MarcusViniciusS
+  subtitle: MarcusVinicius.io
+  author: Marcus Vinicius Santana Silva
+  nick: BLOG
   description:
   link: '/'
   language: en
@@ -39,13 +39,19 @@ site:
 #! ---------------------------------------------------------------
 authors:
   ##! example
-  # TriDiamond:
-  #   name: TriDiamond
-  #   avatar: https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.jpg
-  #   link: https://github.com/TriDiamond
-  #   description: 'Think like an artist, code like an artisan.'
-  #   socials:
-  #     github: https://tridiamond.tech
+   MarcusViniciusSS:
+     name: MarcusViniciusSS
+     avatar: https://avatars.githubusercontent.com/u/17841549?v=4
+     link: https://github.com/MarcusViniciusSS
+     description: 'Think like an artist, code like an artisan.'
+     socials:
+      github: 'https://github.com/MarcusViniciusSS'
+      twitter: 'https://twitter.com/MarcusVinSS'
+      customs:
+
+        linkedin:
+          icon: /svg/linkedin.svg
+          link: https://www.linkedin.com/in/vinicius-santana-silva/
 
 #! ---------------------------------------------------------------
 #! Menu Configs
@@ -89,7 +95,7 @@ socials:
 #! ---------------------------------------------------------------
 site_meta:
   cdn: en
-  favicon:
+  favicon: /png/programmer.png
   description: ''
   keywords: 'Software, Engineer, c#, .net, gamedev, mmo, ddd, reactiveprogramming, algorithm'
   author: 'Marcus Vinicius Santana Silva'
@@ -110,7 +116,7 @@ gitalk:
   admin: [''] ## ['admin_name']
   id: uid
   language: en
-  distractionFreeMode: true
+  distractionFreeMode: false
   recentComment: false
   proxy: ''
 
